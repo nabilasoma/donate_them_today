@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* header part start  */
+ .header_part {
+    background-image: url(./images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .header_container {
+    padding: 200px 0;
+    background: rgba(0, 0, 0, 0.707);
+ }
+ .big_text {
+    text-align: center;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0 350px;
+ }
+ .header_description {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0 350px;
+    padding-top: 20px;
+    line-height: 22px;
+ }
+ .btn_primary {
+    text-align: center;
+    padding-top: 30px;
+ }
+ .btn_primary button {
+    padding: 15px 35px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background: #DD2C00;
+    border: 0;
+ }
+/* header part end */
+/* donate today part start  */
+.donate_today {
+    padding-top: 110px;
+    padding-bottom: 60px;
+}
+.donate_header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.donate_des {
+    text-align: center;
+    padding: 0px 350px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.amount_part {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.amount_item {
+    height: 70px;
+    width: 100px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding-top: 20px;
+    color: #ddd;
+    border-radius: 10px;
+    background: #757575;
+}
+.red_part {
+    background: #FFAB91;
+    border: 1px solid #FF5722;
+}
+.amount_btn {
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+    margin: 0 auto;
+}
+.donate_taka {
+	height: 30px;
+	width: 574px;
+	text-align: center;
+	color: #BDBDBD;
+	margin: 0 auto;
+	margin-top: 25px;
+	border: 1px solid #ddd;
+	padding-top: 3px;
+	box-shadow: 2px 3px #888888;
+}
+/* donate today part end */
+/* plan part start  */
+.donation_part {
+    padding-top: 60px;
+}
+.plan_container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.plan_header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan_des {
+	text-align: center;
+	padding: 0px 321px;
+	line-height: 24px;
+	margin-top: 20px;
+	color: #757575;
+}
+.donate_product {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.donate_item {
+    height: 250px;
+    width: 300px;
+    background: #FFAB91;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.second_item {
+    height: 250px;
+    width: 300px;
+    background: #FF5722;
+}
+.third_item {
+    height: 250px;
+    width: 300px;
+    background: #81C784;
+}
+.food_heading {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.food_des {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.donate_item img{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+/* plan part end  */
+/* depends part start  */
+.depends_part {
+    padding-top: 100px;
+}
+.depends_up_part {
+    display: flex;
+    justify-content: center;
+}
+.depends_item img {
+    height: 350px;
+    width: 450px;
+    margin-right: 200px;
+}
+.depends_header {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.depends_des {
+	text-align: center;
+	padding: 0px 200px;
+	line-height: 24px;
+	margin-top: 43px;
+}
+/* depends part end  */
+/* survive part start  */
+.survive_part {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.survive_item img{
+    height: 350px;
+    width: 400px;
+    margin-left: 200px;
+}
+.survive_up_part {
+    display: flex;
+    justify-content: center;
+}
+/* survive part end */
+/* update part start  */
+.update_part {
+    padding-bottom: 100px;
+}
+.input_div {
+	display: flex;
+	justify-content: center;
+	height: 120px;
+	width: 570px;
+	background: #FFCCBC;
+	align-items: center;
+	margin: 0 auto;
+}
+.email_part{
+
+}
+.update_header {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.update_description {
+    text-align: center;
+    color: #616161;
+    font-weight: 400;
+    padding: 0 350px;
+    padding-top: 20px;
+    line-height: 22px;
+    padding-bottom: 50px;
+}
+.email_part {
+    width: 200px;
+    height: 35px;
+    background: #BDBDBD;
+    border: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+.subcribe_part {
+    height: 35px;
+    border: none;
+    background: #DD2C00;
+    width: 100px;
+    color: #546E7A;
+}
+
+/* update part end  */
+/* footer part start  */
+.footer_part {
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+.footer_description{
+    text-align: center;
+    font-size: 35px;
+    color: #DD2C00;
+    padding-top: 23px;
+}
+.footer_des {
+    text-align: center;
+    color: #616161;
+}
+/* footer part end  */
